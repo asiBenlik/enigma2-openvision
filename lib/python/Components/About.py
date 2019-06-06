@@ -51,13 +51,13 @@ def getEnigmaVersionString():
 		enigma_version = enigma_version [:-12]
 	return enigma_version
 
-def getGStreamerVersionString():
+def getGStreamerVersionString(cpu):
 	try:
 		from glob import glob
 		gst = [x.split("Version: ") for x in open(glob("/var/lib/opkg/info/gstreamer[0-9].[0-9].control")[0], "r") if x.startswith("Version:")][0]
 		return "%s" % gst[1].split("+")[0].replace("\n","")
 	except:
-		return _("unknown")
+		return _("Not Required") if cpu.upper().startswith('HI') else _("Not Installed")
 
 def getKernelVersionString():
 	try:
@@ -140,11 +140,19 @@ def getCPUBrand():
 	else:
 		return _("Broadcom")
 
+def getCPUArch():
+	if SystemInfo["ArchIsARM64"]:
+		return _("ARM64")
+	elif SystemInfo["ArchIsARM"]:
+		return _("ARM")
+	else:
+		return _("Mipsel")
+
 def getFlashType():
 	if SystemInfo["SmallFlash"]:
-		return _("Small, this is a lite image")
+		return _("Small - Lite image")
 	else:
-		return _("Normal, this is a normal image")
+		return _("Normal - Vision image")
 
 def getVisionVersion():
 	try:
@@ -157,6 +165,12 @@ def getVisionRevision():
 		return open("/etc/visionrevision","r").read().strip()
 	except:
 		return _("It's not a genuine Open Vision!")
+
+def getVisionModule():
+	if SystemInfo["OpenVisionModule"]:
+		return _("Loaded")
+	else:
+		return _("Unknown, multiboot situation!")
 
 def getDriverInstalledDate():
 	try:

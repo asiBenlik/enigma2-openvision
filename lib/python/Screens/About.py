@@ -26,12 +26,15 @@ class About(Screen):
 
 		AboutText = _("Hardware: ") + about.getHardwareTypeString() + "\n"
 		AboutText += _("Brand: ") + about.getHardwareBrand() + "\n"
-		AboutText += _("CPU: ") + about.getCPUInfoString() + "\n"
+		cpu = about.getCPUInfoString()
+		AboutText += _("CPU: ") + cpu + "\n"
 		AboutText += _("CPU brand: ") + about.getCPUBrand() + "\n"
+		AboutText += _("CPU architecture: ") + about.getCPUArch() + "\n"
 		AboutText += _("Flash type: ") + about.getFlashType() + "\n"
 		AboutText += _("Image: ") + about.getImageTypeString() + "\n"
 		AboutText += _("Open Vision version: ") + about.getVisionVersion() + "\n"
 		AboutText += _("Open Vision revision: ") + about.getVisionRevision() + "\n"
+		AboutText += _("Open Vision module: ") + about.getVisionModule() + "\n"
 		AboutText += _("Build date: ") + about.getBuildDateString() + "\n"
 		AboutText += _("Last upgrade: ") + about.getUpdateDateString() + "\n"
 
@@ -52,7 +55,7 @@ class About(Screen):
 
 		AboutText += _("DVB driver version: ") + about.getDriverInstalledDate() + "\n"
 
-		GStreamerVersion = _("GStreamer version: ") + about.getGStreamerVersionString().replace("GStreamer","")
+		GStreamerVersion = _("GStreamer version: ") + about.getGStreamerVersionString(cpu).replace("GStreamer","")
 		self["GStreamerVersion"] = StaticText(GStreamerVersion)
 		AboutText += GStreamerVersion + "\n"
 

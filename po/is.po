@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-30 23:52+0430\n"
+"POT-Creation-Date: 2019-06-06 15:17+0430\n"
 "PO-Revision-Date: 2011-05-07 12:23+0200\n"
 "Last-Translator: Baldur <bsveinsson@gmail.com>\n"
 "Language-Team: Polar Team/LT Team <baddi@oreind.is>\n"
@@ -123,7 +123,29 @@ msgstr ""
 "\n"
 "Skoða, setja inn og taka út hugbúnaðar pakka."
 
+#, python-format
+msgid ""
+"\n"
+"optional parameter:\n"
+"%s"
+msgstr ""
+
+msgid " "
+msgstr ""
+
 msgid "  REC  "
+msgstr ""
+
+#, python-format
+msgid " ('%s') finished successefully."
+msgstr ""
+
+#, python-format
+msgid " ('%s') finished with error messages."
+msgstr ""
+
+#, python-format
+msgid " ('%s') finished with error number [%d]."
 msgstr ""
 
 msgid " (0 - all networks)"
@@ -158,6 +180,19 @@ msgstr ""
 msgid " (lower than any auto)"
 msgstr ""
 
+#, python-format
+msgid " - %d elements exist! Overwrite"
+msgstr ""
+
+msgid " - 1 element exist! Overwrite"
+msgstr ""
+
+msgid " - file exist! Overwrite"
+msgstr ""
+
+msgid " - folder exist! Overwrite"
+msgstr ""
+
 msgid " extensions."
 msgstr " viðbætur."
 
@@ -168,6 +203,9 @@ msgstr "%d min"
 
 msgid " ms"
 msgstr " ms"
+
+msgid " or save the picture additionally to a file"
+msgstr ""
 
 #
 msgid " packages selected."
@@ -424,13 +462,40 @@ msgid "%s ( %s Cards )"
 msgstr "%s (%s)\n"
 
 #
+#, fuzzy, python-format
+msgid "%s (%04o)"
+msgstr "%s (%s)\n"
+
+#
+#, fuzzy, python-format
+msgid "%s (%s)"
+msgstr "%s (%s)\n"
+
+#
 #, python-format
 msgid "%s (%s)\n"
 msgstr "%s (%s)\n"
 
+#
+#, fuzzy, python-format
+msgid "%s (%sB"
+msgstr "%s (%s)\n"
+
+#, python-format
+msgid "%s - extraction errors."
+msgstr ""
+
 #. TRANSLATORS: The satellite with name '%s' is no longer used after a configuration change. The user is asked whether or not the satellite should be deleted.
 #, python-format
 msgid "%s is no longer used. Should it be deleted?"
+msgstr ""
+
+#, python-format
+msgid "%s is password protected."
+msgstr ""
+
+#, python-format
+msgid "%s successfully extracted."
 msgstr ""
 
 #
@@ -454,11 +519,35 @@ msgid "%s/%s: %s"
 msgstr ""
 
 #, python-format
+msgid "%s: %s"
+msgstr ""
+
+#, python-format
 msgid "%s:%s"
+msgstr ""
+
+#, python-format
+msgid "%sB"
+msgstr ""
+
+#, python-format
+msgid "'%s' not installed and no known package"
 msgstr ""
 
 msgid "( All readers)"
 msgstr ""
+
+#, python-format
+msgid "(%d jobs)"
+msgstr ""
+
+msgid "(1 job)"
+msgstr ""
+
+#
+#, fuzzy
+msgid "(Selectmode)"
+msgstr "Veldu mynd"
 
 msgid "(Show only reader:"
 msgstr ""
@@ -709,6 +798,9 @@ msgstr ""
 msgid "9"
 msgstr "9"
 
+msgid ": "
+msgstr ""
+
 msgid ": 0000 - default (disabled)"
 msgstr ""
 
@@ -742,6 +834,10 @@ msgstr "<óþekkt>"
 
 msgid "=NO STREAM\n"
 msgstr ""
+
+#, fuzzy
+msgid "?"
+msgstr "??"
 
 msgid "??"
 msgstr "??"
@@ -883,6 +979,12 @@ msgstr ""
 msgid "AGC:"
 msgstr ""
 
+msgid "ARM"
+msgstr ""
+
+msgid "ARM64"
+msgstr ""
+
 msgid "ASS File"
 msgstr ""
 
@@ -906,6 +1008,11 @@ msgid "About..."
 msgstr "Um..."
 
 #
+#, fuzzy
+msgid "Accessed:"
+msgstr "Aðgangspunktur:"
+
+#
 msgid "Accesspoint:"
 msgstr "Aðgangspunktur:"
 
@@ -921,9 +1028,21 @@ msgstr "Virkja Mynd í Mynd"
 msgid "Activate current configuration"
 msgstr "virkja núverandi stillingar"
 
+msgid "Activate left-hand file list as multi-select source"
+msgstr ""
+
+msgid "Activate left-hand file list as source"
+msgstr ""
+
 #
 msgid "Activate network settings"
 msgstr "Virkja netkerfis stillingar"
+
+msgid "Activate right-hand file list as multi-select source"
+msgstr ""
+
+msgid "Activate right-hand file list as source"
+msgstr ""
 
 #
 #, fuzzy
@@ -970,6 +1089,10 @@ msgstr "Bæta við nýjum titli"
 msgid "Add bookmark"
 msgstr "bæta við bókamerki"
 
+#, fuzzy
+msgid "Add current folder to bookmarks"
+msgstr "Sjálfvirk leit"
+
 #
 #, fuzzy
 msgid "Add directory to playlist"
@@ -984,6 +1107,12 @@ msgstr "bæta skrá við spilunarlista"
 #, fuzzy
 msgid "Add files to playlist"
 msgstr "bæta rásum við spilunarlista"
+
+msgid "Add plugin to Extensions menu*"
+msgstr ""
+
+msgid "Add plugin to main menu*"
+msgstr ""
 
 #
 #, fuzzy
@@ -1009,6 +1138,11 @@ msgstr "bæta við upptöku (endalaus)"
 #, fuzzy
 msgid "Add recording (stop after current event)"
 msgstr "bæta við upptöku (stoppa eftir núverandi atriði)"
+
+#
+#, fuzzy
+msgid "Add selected folder to bookmarks"
+msgstr "Veldu skrár/möppur til afritunar"
 
 #
 #, fuzzy
@@ -1707,6 +1841,9 @@ msgstr ""
 msgid "Blinking red"
 msgstr ""
 
+msgid "Block device"
+msgstr ""
+
 msgid "Block noise reduction"
 msgstr "Suð deyfing"
 
@@ -1859,7 +1996,13 @@ msgstr ""
 msgid "CIHelper for slot CI1"
 msgstr ""
 
+msgid "CPU architecture: "
+msgstr ""
+
 msgid "CPU brand: "
+msgstr ""
+
+msgid "CPU priority for script execution"
 msgstr ""
 
 msgid "CPU: "
@@ -1885,6 +2028,9 @@ msgid "Calculate"
 msgstr ""
 
 msgid "Calculate all positions"
+msgstr ""
+
+msgid "Calculate file checksums"
 msgstr ""
 
 msgid "Calculation complete"
@@ -1920,7 +2066,17 @@ msgid ""
 "Yellow for returning back to this intro"
 msgstr ""
 
+#, python-format
+msgid ""
+"Can not run %s: %s.\n"
+"%s may be in a plugin that is not installed."
+msgstr ""
+
 msgid "Can only find a network drive to store the backup this means after the flash the autorestore will not work. Alternativaly you can mount the network drive after the flash and perform a manufacurer reset to autorestore"
+msgstr ""
+
+#, python-format
+msgid "Can't read link contents: %s"
 msgstr ""
 
 msgid "Canada"
@@ -1931,6 +2087,10 @@ msgstr "Hætta við"
 
 msgid "Cancel any text changes and exit"
 msgstr ""
+
+#, fuzzy
+msgid "Cancel execution?"
+msgstr "Rása val"
 
 msgid "Cancelled upon user request"
 msgstr ""
@@ -1977,6 +2137,9 @@ msgstr ""
 msgid "Cayman Islands"
 msgstr ""
 
+msgid "Celsius"
+msgstr ""
+
 msgid "Center DVB subtitles"
 msgstr ""
 
@@ -1999,6 +2162,12 @@ msgstr ""
 
 msgid "Change bouquets in quickzap"
 msgstr "Skipta á milli rása flétta í rásastökki"
+
+msgid "Change buttons for list navigation"
+msgstr ""
+
+msgid "Change execute permissions (755/644)"
+msgstr ""
 
 msgid "Change recording (add time)"
 msgstr ""
@@ -2026,6 +2195,9 @@ msgid "Channel"
 msgstr "Rás"
 
 msgid "Channel Info"
+msgstr ""
+
+msgid "Channel button always changes sides"
 msgstr ""
 
 #, fuzzy
@@ -2081,6 +2253,10 @@ msgstr "Kafli"
 
 msgid "Chapter:"
 msgstr "Kafli:"
+
+#, fuzzy
+msgid "Character device"
+msgstr "Núverandi tæki: "
 
 msgid "Check"
 msgstr "Athuga"
@@ -2759,6 +2935,25 @@ msgstr ""
 msgid "Copy"
 msgstr ""
 
+#, python-format
+msgid "Copy %d elements"
+msgstr ""
+
+msgid "Copy 1 element"
+msgstr ""
+
+msgid "Copy file"
+msgstr ""
+
+msgid "Copy file/directory to target directory"
+msgstr ""
+
+msgid "Copy files/directories to target directory"
+msgstr ""
+
+msgid "Copy folder"
+msgstr ""
+
 msgid "Costa Rica"
 msgstr ""
 
@@ -2795,10 +2990,21 @@ msgstr ""
 msgid "Create DVD-ISO"
 msgstr "Búa til DVD-ISO"
 
+#
+#, fuzzy
+msgid "Create directory/folder"
+msgstr "búa til möppu"
+
 msgid "Create new folder and exit"
 msgstr ""
 
 msgid "Create separate radio userbouquet"
+msgstr ""
+
+msgid "Create symlink to file"
+msgstr ""
+
+msgid "Create user-named symbolic link"
 msgstr ""
 
 #, python-format
@@ -3044,6 +3250,11 @@ msgstr "Dags"
 
 #
 #, fuzzy
+msgid "Date reverse"
+msgstr "Rásir"
+
+#
+#, fuzzy
 msgid "Date/time input"
 msgstr "Tíma/Dags Innsláttur"
 
@@ -3066,8 +3277,31 @@ msgstr "Djúp biðstaða"
 msgid "Default"
 msgstr "Venjulegt"
 
+#
+#, fuzzy
+msgid "Default Folder"
+msgstr "Venjulegt"
+
 msgid "Default Services Scanner"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Default directory sorting"
+msgstr "Upphafs stillingar"
+
+#, fuzzy
+msgid "Default file sorting left"
+msgstr "Sjálfgefin staðsetning bíómynda"
+
+#, fuzzy
+msgid "Default file sorting right"
+msgstr "Sjálfgefin staðsetning bíómynda"
+
+#
+#, fuzzy
+msgid "Default folder"
+msgstr "Venjulegt"
 
 msgid "Default movie location"
 msgstr "Sjálfgefin staðsetning bíómynda"
@@ -3148,6 +3382,21 @@ msgid "Delete"
 msgstr "Eyða"
 
 #
+#, fuzzy, python-format
+msgid "Delete %d elements"
+msgstr "Eyða innslætti"
+
+#
+#, fuzzy
+msgid "Delete 1 element"
+msgstr "Eyða innslætti"
+
+#
+#, fuzzy
+msgid "Delete current line"
+msgstr "Eyða innslætti"
+
+#
 msgid "Delete entry"
 msgstr "Eyða innslætti"
 
@@ -3158,6 +3407,14 @@ msgstr "Tókst ekki að eyða!"
 #
 #, fuzzy
 msgid "Delete file"
+msgstr "eyða skrá"
+
+msgid "Delete file or directory (and all its contents)"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Delete folder"
 msgstr "eyða skrá"
 
 #
@@ -3179,6 +3436,9 @@ msgid "Delete the character to the left of text buffer cursor"
 msgstr ""
 
 msgid "Delete the character under the text buffer cursor"
+msgstr ""
+
+msgid "Delete the selected files or directories"
 msgstr ""
 
 msgid "Delete timer"
@@ -3477,6 +3737,11 @@ msgstr "Viltu örugglega eyða bókamerkinu %s?"
 msgid "Do you really want to stop current event and delete timer %s?"
 msgstr "Viltu virkilega eyða %s?"
 
+#
+#, fuzzy
+msgid "Do you want change rights?\\n"
+msgstr "Viltu setja inn pakkann:\n"
+
 msgid "Do you want this?"
 msgstr ""
 
@@ -3549,6 +3814,11 @@ msgstr ""
 #
 msgid "Do you want to upgrade the package:\n"
 msgstr "Viltu uppfæra pakkann:\n"
+
+#
+#, fuzzy
+msgid "Do you want to view or run the script?\n"
+msgstr "Viltu taka út pakkann:\n"
 
 msgid "Dolby"
 msgstr ""
@@ -3715,6 +3985,18 @@ msgstr "Breyta DNS"
 
 msgid "Edit chapters of current title"
 msgstr "Breyta köflum núverandi titils"
+
+#, fuzzy
+msgid "Edit current line"
+msgstr "Breyta köflum núverandi titils"
+
+#
+#, fuzzy
+msgid "Edit line "
+msgstr "Breyta titili"
+
+msgid "Edit position is the line end"
+msgstr ""
 
 #
 #, fuzzy
@@ -3963,6 +4245,10 @@ msgstr ""
 msgid "Enter main menu..."
 msgstr "Fara í aðal valmynd..."
 
+#, fuzzy
+msgid "Enter multi-file selection mode"
+msgstr "Loka titils vali"
+
 msgid "Enter persistent PIN code"
 msgstr ""
 
@@ -4032,6 +4318,12 @@ msgstr "Villa"
 msgid "Error code"
 msgstr ""
 
+#, fuzzy, python-format
+msgid ""
+"Error creating directory %s:\n"
+"%s"
+msgstr "Tókst ekki að búa möppuna %s."
+
 #, python-format
 msgid ""
 "Error during backup settings\n"
@@ -4054,6 +4346,18 @@ msgstr ""
 msgid "Error executing plugin"
 msgstr "Villa við keyrslu íforrits"
 
+#, python-format
+msgid ""
+"Error linking %s to %s:\n"
+"%s"
+msgstr ""
+
+#, python-format
+msgid ""
+"Error renaming %s to %s:\n"
+"%s"
+msgstr ""
+
 msgid "Error stop stream!"
 msgstr ""
 
@@ -4071,6 +4375,11 @@ msgstr ""
 
 msgid "Error while retreiving location of epg.dat on server"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Error..."
+msgstr "Villa"
 
 #
 #, python-format
@@ -4168,6 +4477,9 @@ msgstr ""
 msgid "Exit editor"
 msgstr "Hætta í breytingum"
 
+msgid "Exit editor and write changes (if any)"
+msgstr ""
+
 msgid "Exit input device selection."
 msgstr "Hætta í inntaks tækja vali."
 
@@ -4201,6 +4513,9 @@ msgstr "fara út úr netkorta lista"
 
 msgid "Exit network wizard"
 msgstr "Hætta í netkerfis ráðgjafa"
+
+msgid "Exit picture viewer"
+msgstr ""
 
 msgid "Exit the wizard"
 msgstr "Hætta í ráðgjafa"
@@ -4328,6 +4643,9 @@ msgstr "FEC"
 msgid "FEC:"
 msgstr ""
 
+msgid "FIFO"
+msgstr ""
+
 msgid "FSBL Update Check"
 msgstr ""
 
@@ -4351,6 +4669,9 @@ msgid ""
 "Factory reset will restore your receiver to its default configuration. All user data including system settings, tuner configuration, bouquets, services and plugins will be DELETED. Recordings and other files stored on HDD and USB media will remain intact. After completion, the system will restart automatically!\n"
 "\n"
 "Do you really want to proceed?"
+msgstr ""
+
+msgid "Fahrenheit"
 msgstr ""
 
 #
@@ -4434,12 +4755,70 @@ msgstr "Eftirlætis listar"
 msgid "Fiji"
 msgstr ""
 
+#, fuzzy
+msgid "File Commander"
+msgstr "Röðun skipana"
+
+msgid "File Commander - Addon File-Viewer"
+msgstr ""
+
+msgid "File Commander - Addon Mediaplayer"
+msgstr ""
+
+msgid "File Commander - Addon Movieplayer"
+msgstr ""
+
+msgid "File Commander - all Task's completed!"
+msgstr ""
+
+msgid "File Commander - generalised archive handler"
+msgstr ""
+
+msgid "File Commander - gzip Addon"
+msgstr ""
+
+msgid "File Commander - ipk Addon"
+msgstr ""
+
+msgid "File Commander - tar Addon"
+msgstr ""
+
+msgid "File Commander - unrar Addon"
+msgstr ""
+
+msgid "File Commander - unzip Addon"
+msgstr ""
+
+#, fuzzy
+msgid "File Commander context menu"
+msgstr "Valmynd rásalista"
+
+msgid "File Commander menu"
+msgstr ""
+
 msgid "File appears to be busy.\n"
+msgstr ""
+
+msgid "File checksums/hashes"
+msgstr ""
+
+#, python-format
+msgid "File not found: %s"
 msgstr ""
 
 msgid ""
 "File oscam.conf/ncam.conf not found.\n"
 "Please enter username/password manually."
+msgstr ""
+
+msgid "File transfer was cancelled by user"
+msgstr ""
+
+#, python-format
+msgid "File write error: '%s'"
+msgstr ""
+
+msgid "File/Directory Status Information"
 msgstr ""
 
 msgid "Filename"
@@ -4448,6 +4827,9 @@ msgstr ""
 #, fuzzy
 msgid "Filesystem check"
 msgstr "Skráarkerfis athugun"
+
+msgid "Filter extension, (*) appears in title"
+msgstr ""
 
 msgid "Final position at"
 msgstr ""
@@ -4705,6 +5087,14 @@ msgstr ""
 msgid "Go down the list"
 msgstr ""
 
+msgid "Go to bookmarked folder"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Go to end of file"
+msgstr "fara í enda listans"
+
 msgid "Go to first movie or last item"
 msgstr ""
 
@@ -4731,6 +5121,10 @@ msgstr "fara niður í næsta atriði"
 msgid "Go to next page of service"
 msgstr "Skipta á næstu undirrás"
 
+#, fuzzy
+msgid "Go to parent directory"
+msgstr "Hýsingar mappa"
+
 #
 #, fuzzy
 msgid "Go to previous event"
@@ -4740,6 +5134,11 @@ msgstr "fara upp í næsta atriði"
 #, fuzzy
 msgid "Go to previous page of service"
 msgstr "Til  baka á síðustu rás"
+
+#
+#, fuzzy
+msgid "Go to start of file"
+msgstr "Skipta á næstu undirrás"
 
 msgid "Go up the list"
 msgstr ""
@@ -4818,6 +5217,9 @@ msgid "Greenland"
 msgstr ""
 
 msgid "Grenada"
+msgstr ""
+
+msgid "Group:"
 msgstr ""
 
 msgid "Grow drop"
@@ -5096,6 +5498,9 @@ msgstr ""
 msgid "I do not want to perform any service scans"
 msgstr "Viltu leita að rásum?"
 
+msgid "I/O priority for script execution"
+msgstr ""
+
 msgid "IDLE"
 msgstr ""
 
@@ -5335,6 +5740,9 @@ msgstr "Frumstiling"
 msgid "Initializing storage device..."
 msgstr ""
 
+msgid "Inode:"
+msgstr ""
+
 #
 msgid "Input"
 msgstr "Inntak"
@@ -5353,9 +5761,21 @@ msgstr "Inntaks tækja uppsetning"
 msgid "Input devices"
 msgstr "Inntaks tæki"
 
+msgid "Insert"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Insert line before current line"
+msgstr "Nánari upplýsingar um titil"
+
 #
 msgid "Install"
 msgstr "Setja inn"
+
+#, python-format
+msgid "Install '%s' and enable this operation"
+msgstr ""
 
 #
 #, fuzzy
@@ -5387,6 +5807,10 @@ msgstr "Innsetning eða fjarlæging tókst."
 #
 msgid "Installing"
 msgstr "Set inn"
+
+#, fuzzy
+msgid "Installing Plugin ..."
+msgstr "Set inn hugbúnað..."
 
 #
 #, fuzzy
@@ -5490,6 +5914,19 @@ msgstr "Gerð leitunar"
 msgid "Israel"
 msgstr ""
 
+msgid "It is not possible to calculate hashes on <List of Storage Devices>"
+msgstr ""
+
+msgid "It is not possible to change the file mode of <List of Storage Devices>"
+msgstr ""
+
+msgid "It is not possible to get the file status of <List of Storage Devices>"
+msgstr ""
+
+#, python-format
+msgid "It is not possible to run '%s' on <List of Storage Devices>"
+msgstr ""
+
 msgid ""
 "It seems you did not see all the eight arrow heads. This means your TV has overscan enabled, and is not configured properly.\n"
 "\n"
@@ -5498,6 +5935,9 @@ msgid ""
 msgstr ""
 
 msgid "It's not a genuine Open Vision!"
+msgstr ""
+
+msgid "It's not possible to rename the filesystem root."
 msgstr ""
 
 #
@@ -5738,6 +6178,14 @@ msgstr "Lettneska"
 msgid "Leave DVD player?"
 msgstr "Hætta í DVD spilara?"
 
+msgid "Leave File Commander"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Leave multi-select mode"
+msgstr "Veldu mynd stillingu"
+
 msgid "Leave this set to 'yes' unless you fully understand why you are adjusting it."
 msgstr ""
 
@@ -5809,6 +6257,11 @@ msgstr "Mörk á"
 msgid "Link quality:"
 msgstr "Gæði tengingar:"
 
+#
+#, fuzzy
+msgid "Link target:"
+msgstr "Gæði tengingar:"
+
 msgid "Link:"
 msgstr "Tenging:"
 
@@ -5816,11 +6269,19 @@ msgstr "Tenging:"
 msgid "Linked titles with a DVD menu"
 msgstr "Tengdir titlar við DVD valmynd"
 
+#, fuzzy
+msgid "Links:"
+msgstr "Tenging:"
+
 msgid "List available networks"
 msgstr "Sýna netkerfi í boði"
 
 msgid "List mode"
 msgstr ""
+
+#, fuzzy
+msgid "List of Storage Devices"
+msgstr "Listi geymslu tækja"
 
 #, fuzzy
 msgid "List of storage devices"
@@ -5870,6 +6331,11 @@ msgstr "hlaða inn spilunarlista"
 
 msgid "Load unlinked userbouquets"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Loaded"
+msgstr "Hleð"
 
 #
 #, fuzzy
@@ -6107,6 +6573,9 @@ msgstr "Skilaboð..."
 msgid "Messages"
 msgstr "Skilaboð"
 
+msgid "Metadata changed:"
+msgstr ""
+
 msgid "Mexico"
 msgstr ""
 
@@ -6126,6 +6595,9 @@ msgstr ""
 #, fuzzy
 msgid "Minimum send interval"
 msgstr "Guard interval"
+
+msgid "Mipsel"
+msgstr ""
 
 msgid "Missing "
 msgstr ""
@@ -6147,6 +6619,10 @@ msgctxt "Video output mode"
 msgid "Mode"
 msgstr "Hamur"
 
+#, python-format
+msgid "Mode %s (%04o)"
+msgstr ""
+
 #
 #, fuzzy
 msgid "Model"
@@ -6160,6 +6636,9 @@ msgstr "Gerð:"
 #, fuzzy
 msgid "Modes"
 msgstr "Hamur"
+
+msgid "Modified:"
+msgstr ""
 
 #
 msgid "Modulation"
@@ -6220,6 +6699,15 @@ msgstr ""
 msgid "Move"
 msgstr ""
 
+#, python-format
+msgid "Move %d elements"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Move 1 element"
+msgstr "Færa austur"
+
 msgid "Move PIP"
 msgstr ""
 
@@ -6233,8 +6721,31 @@ msgid "Move Picture in Picture"
 msgstr "Færa Mynd í Mynd"
 
 #
+#, fuzzy
+msgid "Move down list"
+msgstr "Færa vestur"
+
+#
 msgid "Move east"
 msgstr "Færa austur"
+
+#
+#, fuzzy
+msgid "Move file"
+msgstr "Færa austur"
+
+msgid "Move file/directory to target directory"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Move files/directories to target directory"
+msgstr "Sláðu inn nafn á nýju möppunni"
+
+#
+#, fuzzy
+msgid "Move folder"
+msgstr "[færslu staða]"
 
 msgid "Move the text buffer cursor left"
 msgstr ""
@@ -6264,6 +6775,11 @@ msgid "Move to position X"
 msgstr ""
 
 #
+#, fuzzy
+msgid "Move up list"
+msgstr "Færa austur"
+
+#
 msgid "Move west"
 msgstr "Færa vestur"
 
@@ -6274,6 +6790,9 @@ msgid "Moved to position at index"
 msgstr ""
 
 msgid "Movement"
+msgstr ""
+
+msgid "Movie"
 msgstr ""
 
 #, fuzzy
@@ -6349,6 +6868,9 @@ msgstr ""
 msgid "Multistream"
 msgstr "Margir gervihnettir"
 
+msgid "Music"
+msgstr ""
+
 msgid "Music/Ballet/Dance"
 msgstr ""
 
@@ -6356,8 +6878,22 @@ msgstr ""
 msgid "Mute"
 msgstr "Hljóð Af"
 
+#
+#, fuzzy
+msgid "My Extension"
+msgstr "Viðbætur"
+
+#, fuzzy
+msgid "My extension"
+msgstr " viðbætur."
+
 msgid "Myanmar"
 msgstr ""
+
+#
+#, fuzzy
+msgid "N"
+msgstr "Nei"
 
 #
 msgid "N/A"
@@ -6384,6 +6920,11 @@ msgstr "NTSC"
 #
 msgid "Name"
 msgstr "Nafn"
+
+#
+#, fuzzy
+msgid "Name reverse"
+msgstr "Nafnaþjónn"
 
 #
 msgid "Nameserver"
@@ -6497,6 +7038,9 @@ msgstr ""
 msgid "New Zealand"
 msgstr ""
 
+msgid "New folder"
+msgstr ""
+
 msgid "News Current Affairs"
 msgstr ""
 
@@ -6579,12 +7123,20 @@ msgstr "Engar upplýsingar um atriði fundust, tek upp endalaust."
 msgid "No fast winding possible yet.. but you can use the number buttons to skip forward/backward!"
 msgstr "Ekki mögulegt að hraðspóla enn, þú getur notað númera takkana til að stökkva áfram/afturábak!"
 
+#
+#, fuzzy
+msgid "No files found."
+msgstr "Ekkert netkerfi fannst"
+
 msgid "No free index available"
 msgstr ""
 
 #
 msgid "No free tuner!"
 msgstr "Enginn laus móttakari!"
+
+msgid "No hash calculations configured"
+msgstr ""
 
 #
 #, fuzzy
@@ -6670,6 +7222,10 @@ msgstr " uppfærslur tiltækar."
 msgid "No updates available. Please try again later."
 msgstr ""
 
+#, python-format
+msgid "No viewer installed for this file type: %s"
+msgstr ""
+
 msgid "No wireless networks found! Searching..."
 msgstr "Ekkert þráðlaust net fannst! Leita..."
 
@@ -6721,6 +7277,10 @@ msgstr "Nei, aldrei"
 msgid "None"
 msgstr "Enginn"
 
+#, python-format
+msgid "None of the hash programs for the hashes %s are available"
+msgstr ""
+
 #
 #. TRANSLATORS: (aspect ratio policy: display as fullscreen, with stretching the left/right)
 msgid "Nonlinear"
@@ -6734,10 +7294,10 @@ msgstr ""
 msgid "Normal"
 msgstr "Forma"
 
-msgid "Normal mode"
+msgid "Normal - Vision image"
 msgstr ""
 
-msgid "Normal, this is a normal image"
+msgid "Normal mode"
 msgstr ""
 
 #
@@ -6757,6 +7317,19 @@ msgid "Norwegian"
 msgstr "Norska"
 
 msgid "Not Defined"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Not Installed"
+msgstr "Setja inn"
+
+#
+#, fuzzy
+msgid "Not Required"
+msgstr " uppfærslur tiltækar."
+
+msgid "Not allowed with folders"
 msgstr ""
 
 #, fuzzy
@@ -6806,6 +7379,9 @@ msgid "Now, use the contrast setting to turn up the brightness of the background
 msgstr "Notaðu núna skerpu (contrast) stillingar til að auka birtu bakgrunns eins mikið og hægt er en vertu samt viss um að sjá mun á björtustu tveim hlutum myndarinnar. Þegar þú hefur gert það ýttu þá á OK."
 
 msgid "Number of channels shown in channel selection list"
+msgstr ""
+
+msgid "Number of lines in script messages"
 msgstr ""
 
 msgid "Number of repeating text on display."
@@ -6863,6 +7439,10 @@ msgstr ""
 msgid "On"
 msgstr "Á"
 
+#, fuzzy
+msgid "On device:"
+msgstr "Inntaks tæki"
+
 msgid "On end of movie"
 msgstr ""
 
@@ -6899,6 +7479,11 @@ msgstr ""
 msgid "Only select 'yes' if you are using a multiswich that requires a DiSEqC Port-A command signal. For all other setups select 'no'."
 msgstr ""
 
+#
+#, fuzzy
+msgid "Open Vision module: "
+msgstr "Ný útgáfa:"
+
 msgid "Open Vision revision: "
 msgstr ""
 
@@ -6918,6 +7503,9 @@ msgstr ""
 msgid "Open service list"
 msgstr "opna rása lista"
 
+msgid "Open settings/actions menu"
+msgstr ""
+
 msgid "Open setup tuner "
 msgstr ""
 
@@ -6925,6 +7513,9 @@ msgstr ""
 #, fuzzy
 msgid "Open the movie list"
 msgstr "Til baka til mynda lista"
+
+msgid "Open with File Commander"
+msgstr ""
 
 msgid "Options disable timer"
 msgstr ""
@@ -6970,6 +7561,9 @@ msgstr "Skrifa yfir stillinga skrár við hugbúnaðar uppfærslu?"
 #, fuzzy
 msgid "Overwrite configuration files?"
 msgstr "Skrifa yfir stillinga skrár ?"
+
+msgid "Owner:"
+msgstr ""
 
 #
 msgid "PAL"
@@ -7037,6 +7631,14 @@ msgstr "Pakka meðhöndlun"
 msgid "Packet manager"
 msgstr "Hugbúnaðarpakka stjóri"
 
+msgid "Page down list"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Page up list"
+msgstr "vista spilunarlista"
+
 msgid "Pakistan"
 msgstr ""
 
@@ -7065,6 +7667,10 @@ msgid "Paraguay"
 msgstr ""
 
 #, fuzzy
+msgid "Parent Directory"
+msgstr "Hýsingar mappa"
+
+#, fuzzy
 msgid "Parent directory"
 msgstr "Hýsingar mappa"
 
@@ -7088,6 +7694,9 @@ msgid "Password"
 msgstr ""
 
 msgid "Password (httpwd)"
+msgstr ""
+
+msgid "Path to save not exist: '/tmp/'"
 msgstr ""
 
 #
@@ -7121,6 +7730,9 @@ msgstr ""
 msgid "Permanently remove all deleted items"
 msgstr ""
 
+msgid "Permissions:"
+msgstr ""
+
 msgid "Persian"
 msgstr "Persneska"
 
@@ -7144,6 +7756,11 @@ msgstr ""
 #
 #, fuzzy
 msgid "Picture player"
+msgstr "Mynd spilari"
+
+#
+#, fuzzy
+msgid "Pictures"
 msgstr "Mynd spilari"
 
 #
@@ -7192,6 +7809,11 @@ msgstr "innsláttur"
 
 #
 #, fuzzy
+msgid "Play folder"
+msgstr "innsláttur"
+
+#
+#, fuzzy
 msgid "Play from next mark or playlist entry"
 msgstr "spila frá næsta merki eða atriði úr spilunarlista"
 
@@ -7219,6 +7841,13 @@ msgstr ""
 
 msgid "Play recorded movies..."
 msgstr "Spila uppteknar bíómyndir..."
+
+#, fuzzy
+msgid "Play title"
+msgstr "Bæta við titli"
+
+msgid "Play/view/edit/install/extract/run file or enter directory"
+msgstr ""
 
 msgid "Please add titles to the compilation."
 msgstr "Vinsamlega bætið við titlum við efnið."
@@ -7283,6 +7912,11 @@ msgstr "Sláðu inn skráarnafn (tómt = nota núverandi dag)"
 msgid "Please enter name of the new directory"
 msgstr "Sláðu inn nafn á nýju möppunni"
 
+#
+#, fuzzy
+msgid "Please enter name of the new symlink"
+msgstr "Sláðu inn nafn á nýju möppunni"
+
 msgid "Please enter new description:"
 msgstr ""
 
@@ -7290,11 +7924,26 @@ msgid "Please enter new name:"
 msgstr ""
 
 #
+#, fuzzy
+msgid "Please enter password"
+msgstr "Sláðu inn nýtt skráarnafn"
+
+#
 msgid "Please enter the correct pin code"
 msgstr "Sláðu inn réttan kóða"
 
 msgid "Please enter the new PIN code"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Please enter the new directory name"
+msgstr "Sláðu inn nafn á nýju möppunni"
+
+#
+#, fuzzy
+msgid "Please enter the new file name"
+msgstr "Sláðu inn nýtt skráarnafn"
 
 msgid "Please enter the old PIN code"
 msgstr "Sláðu inn gamla PIN kóðann þinn"
@@ -7472,6 +8121,10 @@ msgstr "Vinsamlega bíðið á meðan við prufum net tengingu..."
 #
 msgid "Please wait while your network is restarting..."
 msgstr "Vinsamlega bíðið á meðan netkerfið er endurræst..."
+
+#, fuzzy
+msgid "Please wait, Loading image."
+msgstr "Vinsamlega bíðið.. les inn lista..."
 
 #
 #, fuzzy
@@ -7809,6 +8462,30 @@ msgstr "Forgangur"
 msgid "Process"
 msgstr "Verk"
 
+#, python-format
+msgid ""
+"Program '%s' is installed.\n"
+"The package containing this program isn't known, so it can't be uninstalled."
+msgstr ""
+
+#, python-format
+msgid ""
+"Program '%s' needs to be installed to run the '%s' action.\n"
+"Uninstall the '%s' package to uninstall the program?"
+msgstr ""
+
+#, python-format
+msgid ""
+"Program '%s' needs to be installed to run this action.\n"
+"Install the '%s' package to install the program?"
+msgstr ""
+
+#, python-format
+msgid ""
+"Program '%s' not installed.\n"
+"The package containing this program isn't known."
+msgstr ""
+
 msgid "Progress"
 msgstr ""
 
@@ -8080,6 +8757,11 @@ msgstr "Upptaka hefur alltaf forgang"
 
 #
 #, fuzzy
+msgid "Records"
+msgstr "Upptaka"
+
+#
+#, fuzzy
 msgid "Recovery Mode"
 msgstr "Stillt af notanda"
 
@@ -8112,6 +8794,11 @@ msgstr "Hressingar tíðni val."
 
 #
 #, fuzzy
+msgid "Refresh screen"
+msgstr "Hressingar tíðni"
+
+#
+#, fuzzy
 msgid "Refusing to move to the same directory"
 msgstr "Sláðu inn nafn á nýju möppunni"
 
@@ -8120,6 +8807,11 @@ msgstr ""
 
 msgid "Region"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Regular file"
+msgstr "sniðmáts skrá"
 
 msgid "Relative"
 msgstr ""
@@ -8189,6 +8881,9 @@ msgstr "eyða bókamerki"
 msgid "Remove completed timers after (days)"
 msgstr ""
 
+msgid "Remove current folder from bookmarks"
+msgstr ""
+
 #
 msgid "Remove currently selected title"
 msgstr "Taka út þegar valinn titil"
@@ -8198,6 +8893,9 @@ msgstr ""
 
 msgid "Remove plugins"
 msgstr "Taka út íforrit"
+
+msgid "Remove selected folder from bookmarks"
+msgstr ""
 
 msgid "Remove this logfile"
 msgstr ""
@@ -8228,6 +8926,11 @@ msgstr "Eyði"
 #
 msgid "Rename"
 msgstr "Endurnefna"
+
+#
+#, fuzzy
+msgid "Rename file/directory"
+msgstr "búa til möppu"
 
 msgid "Rename name and description for new events"
 msgstr ""
@@ -8415,7 +9118,13 @@ msgstr ""
 msgid "Reverse bouquet buttons"
 msgstr ""
 
+msgid "Reverse left file sorting"
+msgstr ""
+
 msgid "Reverse list"
+msgstr ""
+
+msgid "Reverse right file sorting"
 msgstr ""
 
 #
@@ -8460,7 +9169,25 @@ msgstr ""
 msgid "Round start time on"
 msgstr ""
 
+#, python-format
+msgid "Run '%s' command"
+msgstr ""
+
 msgid "Run how often ?"
+msgstr ""
+
+msgid "Run script"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Run script in background"
+msgstr "%d verk eru í vinnslu í bakgrunni!"
+
+msgid "Run script with optional parameter"
+msgstr ""
+
+msgid "Run script with optional parameter in background"
 msgstr ""
 
 #, fuzzy
@@ -8475,6 +9202,9 @@ msgid "Russian Federation"
 msgstr ""
 
 msgid "Rwanda"
+msgstr ""
+
+msgid "S"
 msgstr ""
 
 #
@@ -8632,10 +9362,26 @@ msgstr ""
 
 #
 #, fuzzy
+msgid "Save left folder on exit"
+msgstr "vista síðustu möppu þegar hætt er"
+
+#
+#, fuzzy
 msgid "Save playlist"
 msgstr "vista spilunarlista"
 
+#
+#, fuzzy
+msgid "Save right folder on exit"
+msgstr "vista síðustu möppu þegar hætt er"
+
 msgid "Save settings and EPG data"
+msgstr ""
+
+#, python-format
+msgid ""
+"Save the commands and the output to a file?\n"
+"('%s')"
 msgstr ""
 
 msgid "Save timeshift and zap"
@@ -8752,6 +9498,10 @@ msgid "Schedule EPG and channel list import"
 msgstr ""
 
 msgid "Screenshot of LCD in /tmp"
+msgstr ""
+
+#, python-format
+msgid "Script '%s' must have read permission to be able to run it"
 msgstr ""
 
 msgid "Scroll delay"
@@ -8883,6 +9633,9 @@ msgstr ""
 msgid "Select 'yes' to only send the DiSEqC command when changing from one satellite to another, or select 'no' for the DiSEqC command to be resent on every zap."
 msgstr ""
 
+msgid "Select (source list) or enter directory (target list)"
+msgstr ""
+
 #
 #, fuzzy
 msgid "Select CAId"
@@ -8931,6 +9684,11 @@ msgstr "Veldu mynd"
 #, fuzzy
 msgid "Select a network adapter"
 msgstr "Veldu Netkort"
+
+#
+#, fuzzy
+msgid "Select a path"
+msgstr "Veldu mynd"
 
 #
 #, fuzzy
@@ -9023,11 +9781,6 @@ msgstr "Veldu inntaks tæki."
 #
 msgid "Select interface"
 msgstr "Veldu netkort"
-
-#
-#, fuzzy
-msgid "Select locale"
-msgstr "Veldu mynd"
 
 msgid "Select location"
 msgstr ""
@@ -9130,6 +9883,9 @@ msgstr ""
 msgid "Select the virtual keyboard shifted character set"
 msgstr ""
 
+msgid "Select the virtual keyboard shifted character set for the next character only"
+msgstr ""
+
 #
 #, fuzzy
 msgid "Select upgrade source"
@@ -9158,6 +9914,10 @@ msgstr "Veldu sendanda til að bæta við..."
 
 msgid "Select your country. If not available select 'all'."
 msgstr ""
+
+#, fuzzy
+msgid "Select your personal settings:"
+msgstr "Stillingar safns"
 
 msgid "Select your provider and region. If not present in this list you will need to select one of the other 'service scan types'."
 msgstr ""
@@ -9357,6 +10117,9 @@ msgstr "Aðgerð þegar mynd byrjar"
 msgid "Set all hotkey to default?"
 msgstr ""
 
+msgid "Set archive mode (644)"
+msgstr ""
+
 msgid "Set blocktimes by weekday"
 msgstr ""
 
@@ -9369,6 +10132,9 @@ msgstr ""
 #, fuzzy
 msgid "Set end time"
 msgstr "Stilla loka tíma"
+
+msgid "Set executable mode (755)"
+msgstr ""
 
 msgid "Set fixed"
 msgstr ""
@@ -9459,6 +10225,11 @@ msgid "Settings can be different for each directory separately (for non removeab
 msgstr ""
 
 #
+#, fuzzy
+msgid "Settings..."
+msgstr "Stillingar"
+
+#
 msgid "Setup"
 msgstr "Uppsetning"
 
@@ -9495,6 +10266,9 @@ msgstr "Skerpa"
 msgid "Shellscript"
 msgstr ""
 
+msgid "Shift"
+msgstr ""
+
 msgid "Short filenames"
 msgstr "Stutt skráarnöfn"
 
@@ -9505,6 +10279,12 @@ msgstr ""
 #, fuzzy
 msgid "Show"
 msgstr "Sýna upplýsingar"
+
+#, python-format
+msgid ""
+"Show '%s' as picture%s?\n"
+"The current service must be interrupted!"
+msgstr ""
 
 #
 #, fuzzy
@@ -9579,6 +10359,12 @@ msgstr ""
 msgid "Show SNR percentage instead of dB value"
 msgstr ""
 
+msgid "Show Script completed message"
+msgstr ""
+
+msgid "Show Task's completed message"
+msgstr ""
+
 msgid "Show True/False as graphical switch"
 msgstr ""
 
@@ -9591,6 +10377,13 @@ msgid "Show WLAN status"
 msgstr "Sýna WLAN stöðu"
 
 msgid "Show animation while busy"
+msgstr ""
+
+msgid "Show as Picture (press any key to close)"
+msgstr ""
+
+#, python-format
+msgid "Show as Picture and save as file ('%s')"
 msgstr ""
 
 msgid "Show background behind subtitles"
@@ -9613,6 +10406,18 @@ msgstr ""
 msgid "Show columns"
 msgstr ""
 
+msgid "Show contents of ipk file"
+msgstr ""
+
+msgid "Show contents of rar file"
+msgstr ""
+
+msgid "Show contents of tar or compressed tar file"
+msgstr ""
+
+msgid "Show contents of zip file"
+msgstr ""
+
 msgid "Show crypto icons"
 msgstr ""
 
@@ -9621,6 +10426,11 @@ msgstr ""
 
 msgid "Show detailed event info"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Show directories first"
+msgstr "þessi upptaka"
 
 #
 #, fuzzy
@@ -9653,6 +10463,10 @@ msgstr ""
 
 msgid "Show icon for new/unseen items"
 msgstr ""
+
+#, fuzzy
+msgid "Show image information"
+msgstr "Upplýsingar hugbúnaðar umsýslu"
 
 msgid "Show in extensions menu"
 msgstr ""
@@ -9706,6 +10520,9 @@ msgstr ""
 msgid "Show multi channel EPG"
 msgstr ""
 
+msgid "Show next picture"
+msgstr ""
+
 msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
 msgstr ""
 
@@ -9733,6 +10550,11 @@ msgstr "Sýna færslu mótors"
 
 msgid "Show positioner position"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Show previous picture"
+msgstr "Skipta á fyrri undirrás"
 
 msgid "Show record clock icons"
 msgstr ""
@@ -9785,11 +10607,20 @@ msgid "Show symbols on display"
 msgstr ""
 
 #
+#, fuzzy
+msgid "Show task list"
+msgstr "Sýna upplýsingar"
+
+#
 msgid "Show the radio player..."
 msgstr "Sýna útvarpsspilara..."
 
 msgid "Show the tv player..."
 msgstr "Sýna sjónvarpsspilara..."
+
+#, fuzzy
+msgid "Show unknown extension as text"
+msgstr "skoða íforrit..."
 
 msgid "Show vertical timelines"
 msgstr ""
@@ -9907,6 +10738,17 @@ msgstr ""
 msgid "Site longitude"
 msgstr ""
 
+msgid "Size"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Size reverse"
+msgstr "Rásir"
+
+msgid "Size:"
+msgstr ""
+
 #
 msgid "Skin"
 msgstr "Skinn"
@@ -9931,6 +10773,11 @@ msgstr "Læsa rásum"
 
 msgid "Skip internet connection check (disables automatic package installation)"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Skip selection"
+msgstr "EPG val"
 
 #
 #, fuzzy
@@ -10007,11 +10854,13 @@ msgstr ""
 
 #
 #, fuzzy
+msgid "Small - Lite image"
+msgstr "eyða skrá"
+
+#
+#, fuzzy
 msgid "Small progress"
 msgstr "Í vinnslu"
-
-msgid "Small, this is a lite image"
-msgstr ""
 
 msgid "Smartcard PIN"
 msgstr ""
@@ -10027,6 +10876,11 @@ msgstr ""
 
 msgid "Social/Political/Economics"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Socket"
+msgstr "læst"
 
 msgid "SocketMMI"
 msgstr ""
@@ -10134,6 +10988,12 @@ msgstr ""
 #, fuzzy
 msgid "Sort time"
 msgstr "Raða Tíma"
+
+msgid "Sorting left files by name, date or size"
+msgstr ""
+
+msgid "Sorting right files by name, date or size"
+msgstr ""
 
 #
 msgid "Sound"
@@ -10302,6 +11162,9 @@ msgstr "byrja lifandi pásu"
 msgid "Start with list screen"
 msgstr ""
 
+msgid "Start/stop slide show"
+msgstr ""
+
 #
 msgid "Starting on"
 msgstr "Byrja á"
@@ -10425,6 +11288,10 @@ msgstr "Stoppa tímafærslu?"
 
 msgid "Stopped"
 msgstr ""
+
+#, fuzzy
+msgid "Storage devices"
+msgstr "Listi geymslu tækja"
 
 msgid "Store at index"
 msgstr ""
@@ -10649,6 +11516,12 @@ msgstr ""
 msgid "Symbol rate:"
 msgstr ""
 
+msgid "Symbolic link"
+msgstr ""
+
+msgid "Symlink to "
+msgstr ""
+
 msgid "Sync failure moving back to origin !"
 msgstr ""
 
@@ -10725,6 +11598,11 @@ msgstr ""
 msgid "Tanzania, United Republic of"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Task list"
+msgstr "svarti listi"
+
 msgid "Teletext subtitle color"
 msgstr ""
 
@@ -10793,6 +11671,9 @@ msgstr ""
 msgid "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to create a special format data DVD (which will not play in stand-alone DVD players) instead?"
 msgstr ""
 
+msgid "The Image Viewer component of the File Commander requires the PicturePlayer extension. Install PicturePlayer to enable this operation."
+msgstr ""
+
 msgid "The PIN code has been changed successfully."
 msgstr "Það tókst að breyta PIN kóðanum."
 
@@ -10801,6 +11682,9 @@ msgstr ""
 
 msgid "The PIN codes you entered are different."
 msgstr "PIN númerin sem að þú slóst inn eru ekki eins."
+
+msgid "The authors are NOT RESPONSIBLE"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -10819,6 +11703,14 @@ msgstr ""
 #
 msgid "The following files were found..."
 msgstr "Eftirfarandi skrár fundust..."
+
+msgid ""
+"The function has been interrupted.\n"
+"Don't press any key until the picture from mvi-file is displayed!"
+msgstr ""
+
+msgid "The hash of a directory can't be calculated."
+msgstr ""
 
 #, fuzzy
 msgid ""
@@ -10979,6 +11871,10 @@ msgstr ""
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
 msgstr ""
+
+#, fuzzy
+msgid "This line is not editable!"
+msgstr "Þetta íforrit er ekki sett upp."
 
 msgid "This option allows to reduce the block-noise in the picture. Obviously this is at the cost of the picture's sharpness."
 msgstr ""
@@ -11214,6 +12110,11 @@ msgstr "Fimmtudagur"
 #
 msgid "Time"
 msgstr "Tími"
+
+#
+#, fuzzy
+msgid "Time for Slideshow"
+msgstr "Innsláttur tímastilltra atriða"
 
 msgid "Time for next LCD scrolling"
 msgstr ""
@@ -11574,6 +12475,11 @@ msgstr "Gerð leitunar"
 msgid "Type of scan"
 msgstr "Gerð leitunar"
 
+#
+#, fuzzy
+msgid "Type:"
+msgstr "Gerð"
+
 msgid "UNKNOWN"
 msgstr ""
 
@@ -11657,6 +12563,10 @@ msgstr ""
 msgid "Uninstall"
 msgstr "Taka út"
 
+#, python-format
+msgid "Uninstall '%s' package and disable '%s'"
+msgstr ""
+
 msgid "United Arab Emirates"
 msgstr ""
 
@@ -11679,10 +12589,29 @@ msgstr "Venjulegt LNB"
 msgid "Unknown"
 msgstr "Óþekkt"
 
+#, python-format
+msgid "Unknown group: %d"
+msgstr ""
+
+#
+#, fuzzy, python-format
+msgid "Unknown user: %d"
+msgstr "óþekkt rás"
+
+msgid "Unknown, multiboot situation!"
+msgstr ""
+
 msgid "Unmark service as dedicated 3D service"
 msgstr ""
 
 msgid "Unmount"
+msgstr ""
+
+#, python-format
+msgid "Unpack to %s"
+msgstr ""
+
+msgid "Unpack to current folder"
 msgstr ""
 
 #
@@ -12099,6 +13028,13 @@ msgstr "Skoða lista af tiltækum hugbúnaðar viðbótum"
 msgid "View list of available system extensions"
 msgstr "Skoða lista af tiltækum kerfis viðbótum"
 
+msgid "View or edit file (if size < 1MB)"
+msgstr ""
+
+#, python-format
+msgid "View or edit this %s script"
+msgstr ""
+
 #
 #, fuzzy
 msgid "View photos..."
@@ -12151,6 +13087,9 @@ msgstr ""
 #
 msgid "W"
 msgstr "W"
+
+msgid "WARNING!"
+msgstr ""
 
 #
 msgid "WEP"
@@ -12305,6 +13244,11 @@ msgstr ""
 
 msgid "What day of week ?"
 msgstr ""
+
+#
+#, fuzzy
+msgid "What do you want to play?\n"
+msgstr "Viltu spila DVD diskinn sem er í spilaranum?"
 
 msgid "What type of service scan do you want?"
 msgstr ""
@@ -12711,6 +13655,14 @@ msgstr ""
 #, fuzzy
 msgid "You can set sorting type for items in movielist."
 msgstr "Hlaða inn lengd myndar í myndalista"
+
+#, python-format
+msgid "You can't usefully run '%s' on '%s'."
+msgstr ""
+
+#, python-format
+msgid "You can't usefully run '%s' on a directory."
+msgstr ""
 
 #
 msgid "You cannot delete this!"
@@ -13186,6 +14138,12 @@ msgstr ""
 msgid "cooking"
 msgstr ""
 
+msgid "copy file"
+msgstr ""
+
+msgid "copy folder"
+msgstr ""
+
 #
 msgid "copy to bouquets"
 msgstr "afrita til rásavanda"
@@ -13193,6 +14151,9 @@ msgstr "afrita til rásavanda"
 #
 msgid "create directory"
 msgstr "búa til möppu"
+
+msgid "create symlink ..."
+msgstr ""
 
 #
 msgid "daily"
@@ -13310,6 +14271,11 @@ msgstr "enda klippingu hér"
 msgid "end favourites edit"
 msgstr "hætta breytingum eftirlætis lista"
 
+#
+#, fuzzy
+msgid "ene"
+msgstr "Gerð"
+
 msgid "entertainment (10-16 year old)"
 msgstr ""
 
@@ -13327,6 +14293,11 @@ msgstr ""
 
 msgid "error while scanning"
 msgstr ""
+
+#
+#, fuzzy
+msgid "ese"
+msgstr "Endursetja"
 
 msgid "et4000"
 msgstr ""
@@ -13415,6 +14386,9 @@ msgstr ""
 msgid "football/soccer"
 msgstr ""
 
+msgid "for DATA LOSS OR DAMAGE !!!"
+msgstr ""
+
 msgid "force AC3plus"
 msgstr ""
 
@@ -13440,6 +14414,9 @@ msgid "free"
 msgstr "laust"
 
 msgid "from"
+msgstr ""
+
+msgid "from dir"
 msgstr ""
 
 msgid "further education"
@@ -13470,12 +14447,18 @@ msgstr "grænn"
 msgid "handicraft"
 msgstr ""
 
+msgid "has been CHANGED! Do you want to save it?"
+msgstr ""
+
 msgid "height"
 msgstr ""
 
 #
 msgid "help..."
 msgstr "hjálp..."
+
+msgid "hide"
+msgstr ""
 
 #
 msgid "horizontal"
@@ -13508,6 +14491,9 @@ msgstr "stilla einingar"
 #
 msgid "insert mark here"
 msgstr "setja merki hér"
+
+msgid "install/unpack ipk Files"
+msgstr ""
 
 msgid "invalid type"
 msgstr ""
@@ -13585,6 +14571,9 @@ msgstr ""
 msgid "magazines/reports/documentary"
 msgstr ""
 
+msgid "manage local Files"
+msgstr ""
+
 #
 msgid "manual"
 msgstr "handvirkt"
@@ -13631,6 +14620,16 @@ msgid "move down to next entry"
 msgstr "fara niður í næsta atriði"
 
 #
+#, fuzzy
+msgid "move file"
+msgstr "Taka út titil"
+
+#
+#, fuzzy
+msgid "move folder"
+msgstr "[færslu staða]"
+
+#
 msgid "move up to first entry"
 msgstr "fara upp í fyrsta atriði"
 
@@ -13666,6 +14665,11 @@ msgid "nature/animals/environment"
 msgstr ""
 
 #
+#, fuzzy
+msgid "ne"
+msgstr "Einn"
+
+#
 msgid "never"
 msgstr "aldrei"
 
@@ -13680,6 +14684,15 @@ msgstr ""
 
 msgid "news/weather report"
 msgstr ""
+
+#
+#, fuzzy
+msgid "nne"
+msgstr "engin"
+
+#, fuzzy
+msgid "nnw"
+msgstr "Óþekkt"
 
 #
 msgid "no"
@@ -13739,6 +14752,9 @@ msgstr ""
 #
 msgid "nothing connected"
 msgstr "ekkert tengt"
+
+msgid "nw"
+msgstr ""
 
 #
 msgid "of a DUAL layer medium used."
@@ -13801,10 +14817,16 @@ msgstr ""
 msgid "performing arts"
 msgstr ""
 
+msgid "play Files"
+msgstr ""
+
 msgid "play as picture in picture"
 msgstr ""
 
 msgid "play in mainwindow"
+msgstr ""
+
+msgid "play/show Files"
 msgstr ""
 
 #
@@ -13822,6 +14844,9 @@ msgid "pre-school children's program"
 msgstr ""
 
 msgid "purge deleted userbouquets"
+msgstr ""
+
+msgid "python"
 msgstr ""
 
 #, fuzzy
@@ -13969,6 +14994,17 @@ msgstr "leitar staða"
 msgid "science fiction/fantasy/horror"
 msgstr ""
 
+msgid "script 'sterr':"
+msgstr ""
+
+msgid "script 'stout':"
+msgstr ""
+
+#
+#, fuzzy
+msgid "se"
+msgstr "Nota"
+
 #
 msgid "seconds"
 msgstr "sekúndur"
@@ -13999,6 +15035,9 @@ msgid "service off-air"
 msgstr "bæta rás við eftirlætis lista"
 
 msgid "set as startup service"
+msgstr ""
+
+msgid "shell"
 msgstr ""
 
 #
@@ -14118,6 +15157,14 @@ msgid "sports magazine"
 msgstr ""
 
 #
+#, fuzzy
+msgid "sse"
+msgstr "Nota"
+
+msgid "ssw"
+msgstr ""
+
+#
 msgid "standard"
 msgstr "venjulegt"
 
@@ -14142,6 +15189,9 @@ msgid "stop using as startup service"
 msgstr ""
 
 msgid "successful"
+msgstr ""
+
+msgid "sw"
 msgstr ""
 
 #
@@ -14191,6 +15241,9 @@ msgstr "þessi upptaka"
 msgid "this service is protected by a parental control pin"
 msgstr "þessi rás er læst með kóða"
 
+msgid "to dir"
+msgstr ""
+
 #
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "skipta á milli tíma, kafla, undirtexta upplýsingar"
@@ -14230,6 +15283,21 @@ msgstr ""
 #
 msgid "unknown service"
 msgstr "óþekkt rás"
+
+msgid "unpack Rar Files"
+msgstr ""
+
+msgid "unpack archives"
+msgstr ""
+
+msgid "unpack gzip Files"
+msgstr ""
+
+msgid "unpack tar/compressed tar Files"
+msgstr ""
+
+msgid "unpack zip Files"
+msgstr ""
 
 msgid "unpublished"
 msgstr ""
@@ -14325,9 +15393,18 @@ msgstr ""
 msgid "with_errors"
 msgstr ""
 
+msgid "without"
+msgstr ""
+
+msgid "wnw"
+msgstr ""
+
 #
 msgid "working"
 msgstr "er að vinna"
+
+msgid "wsw"
+msgstr ""
 
 msgid "xp1000"
 msgstr ""
