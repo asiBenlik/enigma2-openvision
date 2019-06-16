@@ -24,9 +24,6 @@
 
 DEFINE_REF(eDVBAudio);
 
-#define AUDIO_GET_PTS			_IOR('o', 19, __u64)
-#define VIDEO_GET_FRAME_RATE	_IOR('o', 56, unsigned int)
-
 eDVBAudio::eDVBAudio(eDVBDemux *demux, int dev)
 	:m_demux(demux), m_dev(dev)
 {
